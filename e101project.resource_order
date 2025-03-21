@@ -1,0 +1,28 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Animation Curves","order":10,"path":"folders/Animation Curves.yy",},
+    {"name":"Extensions","order":12,"path":"folders/Extensions.yy",},
+    {"name":"Fonts","order":6,"path":"folders/Fonts.yy",},
+    {"name":"Notes","order":11,"path":"folders/Notes.yy",},
+    {"name":"Objects","order":8,"path":"folders/Objects.yy",},
+    {"name":"Battle","order":3,"path":"folders/Objects/Battle.yy",},
+    {"name":"Particle Systems","order":13,"path":"folders/Particle Systems.yy",},
+    {"name":"Paths","order":3,"path":"folders/Paths.yy",},
+    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Sequences","order":9,"path":"folders/Sequences.yy",},
+    {"name":"Shaders","order":5,"path":"folders/Shaders.yy",},
+    {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
+    {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
+    {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_action_heavy","order":4,"path":"objects/obj_action_heavy/obj_action_heavy.yy",},
+    {"name":"obj_action_light","order":3,"path":"objects/obj_action_light/obj_action_light.yy",},
+    {"name":"obj_action_parent","order":2,"path":"objects/obj_action_parent/obj_action_parent.yy",},
+    {"name":"obj_action_run","order":5,"path":"objects/obj_action_run/obj_action_run.yy",},
+    {"name":"obj_battle_manager","order":1,"path":"objects/obj_battle_manager/obj_battle_manager.yy",},
+    {"name":"obj_enemy_parent","order":1,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
+    {"name":"obj_enemy1","order":2,"path":"objects/obj_enemy1/obj_enemy1.yy",},
+    {"name":"rm_battle","order":1,"path":"rooms/rm_battle/rm_battle.yy",},
+  ],
+}
