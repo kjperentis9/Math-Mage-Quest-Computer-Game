@@ -20,9 +20,13 @@
     {"name":"obj_action_light","order":3,"path":"objects/obj_action_light/obj_action_light.yy",},
     {"name":"obj_action_parent","order":2,"path":"objects/obj_action_parent/obj_action_parent.yy",},
     {"name":"obj_action_run","order":5,"path":"objects/obj_action_run/obj_action_run.yy",},
+    {"name":"obj_battle_enemy","order":7,"path":"objects/obj_battle_enemy/obj_battle_enemy.yy",},
     {"name":"obj_battle_manager","order":1,"path":"objects/obj_battle_manager/obj_battle_manager.yy",},
+    {"name":"obj_battle_player","order":6,"path":"objects/obj_battle_player/obj_battle_player.yy",},
     {"name":"obj_enemy_parent","order":1,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
     {"name":"obj_enemy1","order":2,"path":"objects/obj_enemy1/obj_enemy1.yy",},
     {"name":"rm_battle","order":1,"path":"rooms/rm_battle/rm_battle.yy",},
+    {"name":"spr_npc1_1","order":2,"path":"sprites/spr_npc1_1/spr_npc1_1.yy",},
+    {"name":"spr_player_idle_right_1","order":1,"path":"sprites/spr_player_idle_right_1/spr_player_idle_right_1.yy",},
   ],
 }
