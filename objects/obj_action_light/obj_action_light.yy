@@ -39,5 +39,5 @@
     "path":"sprites/spr_button_light/spr_button_light.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
