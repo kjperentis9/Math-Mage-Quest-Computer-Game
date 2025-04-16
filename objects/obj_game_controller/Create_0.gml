@@ -1,0 +1,1 @@
+global.question_index = 0;
