@@ -52,9 +52,9 @@ questions =
     ["What is lim(x->infinity) (1/x)?", ["0", "1", "infinity", "undefined"], 0]
 //Medium Level
 	//Allgebra
-["Solve for x in terms of y: 3x + 4y = 12", ["x = 12 − 4y", "x = (12 − 4y)/3", "x = 4y/3", "x = 3y − 12"], 1],
-["The sum of two numbers is 24, and their difference is 6. Find the numbers.", ["18 and 6", "15 and 9", "12 and 12", "20 and 4"], 1],
-["Solve the system: 2x + y = 10, 3x − y = 5", ["x = 2, y = 6", "x = 3, y = 4", "x = 1, y = 8", "x = 4, y = 2"], 1],
+	["Solve for x in terms of y: 3x + 4y = 12", ["x = 12 − 4y", "x = (12 − 4y)/3", "x = 4y/3", "x = 3y − 12"], 1],
+	["The sum of two numbers is 24, and their difference is 6. Find the numbers.", ["18 and 6", "15 and 9", "12 and 12", "20 and 4"], 1],
+	["Solve the system: 2x + y = 10, 3x − y = 5", ["x = 2, y = 6", "x = 3, y = 4", "x = 1, y = 8", "x = 4, y = 2"], 1],
 
 	// Geometry
 ["A cylinder has height 10 cm and radius 4 cm. Find its volume.", ["160π cm³", "120π cm³", "80π cm³", "100π cm³"], 0],
