@@ -1,0 +1,1 @@
+alarm_set(4, 5); // Wait 5 frames before resetting question state
