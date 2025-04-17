@@ -14,6 +14,8 @@ for (var i = 0; i < 4; i++) {
 			// CORRECT
 			obj_battle_enemy.data.hp = 0;
 			instance_destroy(obj_battle_enemy); 
+			global.kills_room1 += 1;
+			global.enemies_defeated += 1;
 			global.question_index++
 			current_question = questions[global.question_index];
 			alarm[3] = room_speed; 

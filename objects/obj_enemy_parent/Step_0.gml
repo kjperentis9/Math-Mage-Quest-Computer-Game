@@ -1,8 +1,24 @@
-var _hor = clamp(target_x - x, -1, 1);
-var _ver = clamp(target_y - y, -1, 1);
+// Only chase the player if they're nearby
+if (instance_exists(obj_player)) {
+    var detect_range = 130; // Set to your preferred detection radius
+    if (point_distance(x, y, obj_player.x, obj_player.y) <= detect_range) {
+        target_x = obj_player.x;
+        target_y = obj_player.y;
+    }
+}
+// Calculate vector to target
+var dx = target_x - x;
+var dy = target_y - y;
+var dist = point_distance(x, y, target_x, target_y);
 
-move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, obj_enemy_parent]);
+// If close enough to target, stop moving to prevent jitter
+if (dist > 8) {
+    dx /= dist;
+    dy /= dist;
+    move_and_collide(dx * move_speed, dy * move_speed, [tilemap, obj_enemy_parent]);
+}
 
+// Health check
 if (hp <= 0) {
     instance_destroy();
 }
