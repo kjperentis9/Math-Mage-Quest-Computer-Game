@@ -1,7 +1,7 @@
 if (!instance_exists(obj_player)) {
     var player = instance_create_layer(x, y, "Instances", obj_player);
-    player.x = 180; // Set to your desired starting x
-    player.y = 100; // Set to your desired starting y
+    player.x = 180; 
+    player.y = 100; 
 }
 if (!variable_global_exists("enemies_defeated")) {
     global.enemies_defeated = 0;
@@ -22,5 +22,5 @@ if (!variable_global_exists("returning_from_room3")) {
 
 if (global.returning_from_room3) {
     global.returning_from_room3 = false;
-    alarm[0] = 1; // delay to allow room to load first
+    alarm[0] = 1;
 }

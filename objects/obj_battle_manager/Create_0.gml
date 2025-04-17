@@ -25,7 +25,7 @@ show_incorrect_msg = false;
 questions = 
 [
 // Low Level
-["Solve for x: 5x - 7 = 18", ["x = 5", "x = 10", "x = 6", "x = 7"], 3],
+["Solve for x: 5x - 7 = 18", ["x = 5", "x = 10", "x = 6", "x = 7"], 0],
 ["Factor: x^2 - 9x + 20", ["(x+4)(x+5)", "(x-4)(x-5)", "(x-2)(x-10)", "(x+1)(x-20)"], 1],
 ["Simplify: (3x^2 + 6x) / 3x", ["x + 3", "x + 2", "3x + 2", "3x"], 1],
 ["Find the area of a triangle with base 10 and height 5", ["50", "15", "25", "30"], 2],

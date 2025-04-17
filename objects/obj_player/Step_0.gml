@@ -1,16 +1,16 @@
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
-// Fix: collide with tilemap AND obj_blocker
+// Collide with tilemap and obj_blockers
 move_and_collide(
     _hor * move_speed,
     _ver * move_speed,
-    [tilemap, obj_blocker1, obj_blocker2, obj_blocker3], // ← this line includes both collision sources
+    [tilemap, obj_blocker1, obj_blocker2, obj_blocker3], 
     undefined, undefined, undefined,
     move_speed, move_speed
 );
 
-// Handle walking animation
+//  walking animation
 if (_hor != 0 || _ver != 0) {
     if (_ver > 0) {
         sprite_index = spr_player_walk_down;
