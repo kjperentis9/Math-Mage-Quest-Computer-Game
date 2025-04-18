@@ -17,13 +17,19 @@ for (var i = 0; i < 4; i++) {
 			global.kills_room1 += 1;
 			global.enemies_defeated += 1;
 			global.question_index += 1;
-			if (global.question_index >= array_length(questions)) {
+			if (wrong_attempts == 1) 
+			{
+                wrong_attempts--
+				obj_battle_player.data.hp *= 2;
+            } 
+			if (global.question_index >= array_length(questions)){
     global.question_index = 0; // or show victory/end battle logic
 }
 			current_question = questions[global.question_index];
 			alarm[3] = room_speed; 
 			waiting_for_answer = false;
 			show_incorrect_msg = false;
+			
         } 
 		else 
 		{

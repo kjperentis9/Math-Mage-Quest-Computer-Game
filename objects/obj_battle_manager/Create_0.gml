@@ -51,7 +51,7 @@ questions =
 ["Triangle with sides 8 and 10, angle 60deg. Find third side (Law of Cosines).", ["8.17", "10.17", "11.17", "9.17"], 3],
 ["Triangle sides in 3:4:5 ratio, hypotenuse is 15. Find the other sides.", ["6 & 8", "7 & 10", "5 & 10", "9 & 12"], 3],
 ["Probability of face card from a deck?", ["13/52 = 1/4", "12/52 = 3/13", "26/52 = 1/2", "4/52 = 1/13"], 1],
-["Two dice rolled. Probability of sum = 7?", ["1/6", "5/36", "6/36", "1/36"], 0],
+["Two dice rolled. Probability of sum = 7?", ["1/6", "5/36", "4/36", "1/36"], 0],
 ["Evaluate: lim(x->0) x^2 / sin(x) using L'Hopital's Rule", ["0", "infinity", "2", "1"], 0],
 ["Evaluate the integral of x^2 dx", ["x^3/3 + C", "x^2/2 + C", "x^3 + C", "x^4/4 + C"], 0],
 ["s(t) = 3t^2 - 2t + 1. Find velocity function.", ["v(t) = 6t + 2", "v(t) = 6t - 2", "v(t) = 3t - 2", "v(t) = 3t + 1"], 1]
