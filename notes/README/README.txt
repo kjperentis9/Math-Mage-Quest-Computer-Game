@@ -1,7 +1,1 @@
-Start the RPG tutorial here:
-
-https://youtu.be/1J5EydrnIPs
-
-Markdown link:
-
-[Click here in Code Editor 2](https://youtu.be/1J5EydrnIPs)
+This game aims to address the dip in math scores which occurred after the COVID-19 pandemic. The target audience is middle  to high school students aged 13-18. The game is structured as a top down RPG adventure game which engages its users through a storyline and math based combat. It contains various levels of difficulty for multiple different subjects. The user's goal is to navigate through every level by correctly answering questions. Having multiple different subjects will also allow students to select and focus on specific math topics which they need improvement upon.
